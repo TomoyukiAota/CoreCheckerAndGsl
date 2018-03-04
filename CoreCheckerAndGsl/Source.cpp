@@ -1,5 +1,5 @@
-#include <gsl/gsl>
-//#include "gsl_wrapper.h"
+//#include <gsl/gsl>     // Directly including gsl/gsl results in warnings from GSL code.
+#include "gsl_wrapper.h" // Including gsl/gsl through gsl_wrapper.h disables warnings from GSL code.
 
 int main()
 {
