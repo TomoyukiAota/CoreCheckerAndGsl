@@ -1,5 +1,5 @@
 #ifdef _MSC_VER
-#include <CppCoreCheck\warnings.h>
+#include <CppCoreCheck/warnings.h>
 #pragma warning(disable: ALL_CPPCORECHECK_WARNINGS)
 #endif // _MSC_VER
 
