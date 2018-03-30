@@ -5,8 +5,8 @@
 
 int main()
 {
-	const int integer = 1;
-	const size_t size = gsl::narrow<size_t>(integer);
+    const int integer = 1;
+    const size_t size = gsl::narrow<size_t>(integer);
 
     std::vector<int> vec{ 1, 2, 3, 4 };
     const gsl::span<int> s{ vec };
